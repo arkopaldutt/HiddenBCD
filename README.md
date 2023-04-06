@@ -5,11 +5,13 @@
 
 In this work, we study the problem of learning an unknown quantum channel $C$ acting on a system that we cannot directly measure, arbitrarily control nor initialize reliably. This setting appears naturally in quantum logic detection and quantum non-demolition measurements, and engineered systems.
 
-Concretly, we consider an unknown channel given by $ C = \exp(i \theta_C \sigma_x)$ with an unknown phase $\theta_C$ taking values of $0$ or $\alpha \in (0,2\pi)$. The goal is to then discriminate the value of $\theta_C$ with the fewest measuremnets. Towards achieving this goal, we specify sequential and multi-shot protocols utilizing queries as shown in the Figure below. 
+Concretly, we consider an unknown channel given by $C = \exp(i \theta_C \sigma_x)$ with an unknown phase $\theta_C$ taking values of $0$ or $\alpha \in (0,2\pi)$. The goal is to then discriminate the value of $\theta_C$ with the fewest measuremnets. Towards achieving this goal, we specify sequential and multi-shot protocols utilizing queries as shown in the Figure below. 
+
+![Query specification in HBCD] (https://github.com/arkopaldutt/HiddenBCD/blob/main/figures/hbcd_query.pdf)
 
 See the paper for more details on how the queries are specified and optimized. We show that sequential protocols outperform multi-shot protocols by achieving a lower error probability on HBCD problems with fewer queries and at the Heisenberg limit.
 
-## Protocols
+![Comparison of protocols in solving HBCD] (https://github.com/arkopaldutt/HiddenBCD/blob/main/figures/comparison_hbcd_protocols.pdf)
 
 ## Code design
 
