@@ -1,10 +1,17 @@
 # Hidden Binary Channel Discrimination (HBCD)
 
+(Code accompanying the paper [Power of sequential protocols in hidden quantum channel discrimination](https://arxiv.org/abs/2304.02053))
 ## Introduction
 
-### Problem statement
+In this work, we study the problem of learning an unknown quantum channel $C$ acting on a system that we cannot directly measure, arbitrarily control nor initialize reliably. This setting appears naturally in quantum logic detection and quantum non-demolition measurements, and engineered systems.
 
-### Query
+Concretly, we consider an unknown channel given by 
+
+<!-- C = \exp(i \theta_C \sigma_x) --> 
+
+with an unknown phase $\theta_C$ taking values in $\{0,\alpha\}$. The goal is to then discriminate the value of $\theta_C$ with the fewest measuremnets. Towards achieving this goal, we specify sequential and multi-shot protocols utilizing queries as shown in the Figure below. 
+
+See the paper for more details on how the queries are specified and optimized. We show that sequential protocols outperform multi-shot protocols by achieving a lower error probability on HBCD problems with fewer queries and at the Heisenberg limit.
 
 ## Protocols
 
@@ -23,8 +30,8 @@ Additionally, the `cases` directory includes the following files that demonstrat
 Finally, if you want to run larger jobs, there are scripts on running numerical experiments with the sequential and multi-shot protocol for solving HBCD in `jobs`. Post-processing of experimental data is illustrated in `process_jobs.py`. Data obtained in our numerical experiments and used in generating results for the paper can also be found here.
 ### Requirements
 
-To run this package, we recommend installing the requirements specified in [tf_requirements.txt](https://github.com/ichuang/pyqsp/blob/master/tf_requirements.txt)
+To run this package, we recommend installing the requirements specified in [hbcd_requirements.txt](https://github.com/)
 
 ## Citing this repository
 
-To cite this repository please include a reference to our paper (arXiv link coming soon!).
+To cite this repository please include a reference to our [paper](https://arxiv.org/abs/2304.02053).
