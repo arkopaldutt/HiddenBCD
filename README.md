@@ -11,7 +11,7 @@ Concretly, we tackle the problem of learning an unknown quantum channel $C$ acti
   <img src="https://github.com/arkopaldutt/HiddenBCD/blob/main/figures/hbcd_query.png" width=60% height=60%>
 </p>
 
-See the paper for more details on how the queries are specified and optimized. The figure of merit of a protocol is the query complexity $N$ or the number of interactions with the hidden system required for accomplishing HBCD with error probability $\epsilon \in [0,1/2)$. We show that sequential protocols outperform multi-shot protocols by achieving a lower error probability on HBCD problems with fewer queries and at the Heisenberg limit.
+See the paper for more details on how the queries are specified and optimized. The figure of merit of a protocol is the query complexity $N$ or the number of interactions with the hidden system required for accomplishing HBCD with error probability $\epsilon \in [0,1/2)$. We show that the sequential protocol ($\Sigma_S$) outperforms the multi-shot protocol ($\Sigma_M$) with a fixed query depth by achieving a lower error probability on HBCD problems with fewer queries and at the Heisenberg limit.
 
 <p align="center">
   <img src="https://github.com/arkopaldutt/HiddenBCD/blob/main/figures/comparison_hbcd_protocols.png" width=60% height=60%>
