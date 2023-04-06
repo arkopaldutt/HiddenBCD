@@ -32,7 +32,7 @@ Additionally, the `cases` directory includes the following files that demonstrat
 Finally, if you want to run larger jobs, there are scripts on running numerical experiments with the sequential and multi-shot protocol for solving HBCD in `jobs`. Post-processing of experimental data is illustrated in `process_jobs.py`. Data obtained in our numerical experiments and used in generating results for the paper can also be found here.
 ### Requirements
 
-To run this package, we recommend installing the requirements specified in [hbcd_requirements.txt](https://github.com/)
+To run this package, we recommend installing the requirements specified in [hbcd_requirements.txt](https://github.com/arkopaldutt/HiddenBCD/blob/main/hbcd_requirements.txt)
 
 ## Citing this repository
 
